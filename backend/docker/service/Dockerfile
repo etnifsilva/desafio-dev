@@ -6,7 +6,7 @@ COPY .mvn .mvn
 COPY pom.xml .
 COPY src src
 
-RUN ./mvnw install -DskipTests
+RUN ./mvnw install
 
 FROM amazoncorretto:11-alpine3.15
 VOLUME /tmp
