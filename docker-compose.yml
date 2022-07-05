@@ -1,0 +1,36 @@
+services:
+  db:
+    build: ./backend/docker/database
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: ex4mpl3p4ssw0rd
+      POSTGRES_DB: mytest
+    networks:
+      - mytest-network
+    hostname: host.docker.internal
+
+  backend:
+    depends_on:
+      - db
+    build:
+      context: ./backend
+      dockerfile: ./docker/service/Dockerfile
+    networks:
+      - mytest-network
+    ports:
+      - 8081:8081
+
+#  frontend:
+#    depends_on:
+#      - backend
+#    build:
+#      context: ./frontend
+#    networks:
+#      - mytest-network
+#    ports:
+#      - 8000:8000
+
+networks:
+  mytest-network: {}

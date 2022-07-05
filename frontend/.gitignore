@@ -1,0 +1,9 @@
+/node_modules/
+/lib/
+/test/
+
+# top level source
+upload-file.js
+upload-file.js.map
+upload-file.d.ts
+upload-file.d.ts.map

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9c0ad68-e98e-4acb-bd34-ab18fc22e8dd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/CNAB.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/docker/database/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/docker/database/create_database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/docker/service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/codetest/mytest/MytestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/codetest/mytest/controller/StoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/codetest/mytest/dto/StoreReportDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/codetest/mytest/dto/StoreSummaryDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/codetest/mytest/entity/StoreTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/codetest/mytest/enums/TransactionSignal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/codetest/mytest/enums/TransactionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/codetest/mytest/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/codetest/mytest/mapper/TransactionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/codetest/mytest/repository/TransactionRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/codetest/mytest/service/StoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/codetest/mytest/controller/StoreControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/codetest/mytest/enums/TransactionTypeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/codetest/mytest/helper/TestHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/codetest/mytest/mapper/TransactionMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/codetest/mytest/service/StoreServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/resources/transaction.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/listagem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAB.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2BQAarDghH5Cu46xq3USoY1YLTL" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.codetest.mytest.dto" />
+      <recent name="com.codetest.mytest.enums" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\novo_desafio\desafio-dev\backend\src\main\resources" />
+      <recent name="C:\dev\novo_desafio\desafio-dev\front" />
+      <recent name="C:\dev\novo_desafio\desafio-dev\src\test\resources" />
+      <recent name="C:\dev\novo_desafio\desafio-dev" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\novo_desafio\desafio-dev\frontend" />
+      <recent name="C:\dev\novo_desafio\desafio-dev" />
+      <recent name="C:\dev\novo_desafio\desafio-dev\docker\backend" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.codetest.mytest.enums" />
+      <recent name="com.codetest.mytest.mapper" />
+      <recent name="com.codetest.mytest" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn spring-boot:run" />
+      <command value="mvn spring-boot:build-image -Dspring-boot.build-image.imageName=mytest" />
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="All in desafio-dev" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="desafio-dev" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreControllerTest.givenARequestThenReturnStoreReport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="desafio-dev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codetest.mytest.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codetest.mytest.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.codetest.mytest.controller.StoreControllerTest" />
+      <option name="METHOD_NAME" value="givenARequestThenReturnStoreReport" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionTypeTest.givenAInvalidCodeThenReturnTheTransactionType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="desafio-dev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codetest.mytest.helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codetest.mytest.enums" />
+      <option name="MAIN_CLASS_NAME" value="com.codetest.mytest.enums.TransactionTypeTest" />
+      <option name="METHOD_NAME" value="givenAInvalidCodeThenReturnTheTransactionType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionTypeTest.givenAValidCodeThenReturnTheTransactionType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="desafio-dev" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.codetest.mytest.helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.codetest.mytest.enums" />
+      <option name="MAIN_CLASS_NAME" value="com.codetest.mytest.enums.TransactionTypeTest" />
+      <option name="METHOD_NAME" value="givenAValidCodeThenReturnTheTransactionType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in desafio-dev" />
+      <item itemvalue="JUnit.StoreControllerTest.givenARequestThenReturnStoreReport" />
+      <item itemvalue="JUnit.TransactionTypeTest.givenAInvalidCodeThenReturnTheTransactionType" />
+      <item itemvalue="JUnit.TransactionTypeTest.givenAValidCodeThenReturnTheTransactionType" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in desafio-dev" />
+        <item itemvalue="JUnit.TransactionTypeTest.givenAInvalidCodeThenReturnTheTransactionType" />
+        <item itemvalue="JUnit.TransactionTypeTest.givenAValidCodeThenReturnTheTransactionType" />
+        <item itemvalue="JUnit.StoreControllerTest.givenARequestThenReturnStoreReport" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9c0ad68-e98e-4acb-bd34-ab18fc22e8dd" name="Changes" comment="" />
+      <created>1656828005185</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656828005185</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/codetest/mytest/helper/TestHelper.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/desafio_dev$All_in_desafio_dev.ic" NAME="All in desafio-dev Coverage Results" MODIFIED="1656974607747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
