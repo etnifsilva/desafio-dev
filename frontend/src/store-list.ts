@@ -17,8 +17,17 @@ export class StoreList extends LitElement {
     }
 
     .item-container {
+      max-width: 420px;
       display: flex;
       justify-content: space-between;
+    }
+
+    .split-line {
+      margin: 4px;
+      flex-grow: 1;
+      border-bottom-style: dotted;
+      border-bottom-width: 1px;
+      border-bottom-color: #000;
     }
     `;
 
@@ -55,7 +64,13 @@ export class StoreList extends LitElement {
       <div class="store-list">
         ${this.stores.map((store) => html`
           <div class="item-container">
-            ${store.name}: ${store.total}
+            <div>
+              ${store.name}
+            </div>
+            <div class="split-line"></div>
+            <div>
+              ${store.total}
+            </div>
           </div>
         `)}
       </div>

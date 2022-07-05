@@ -3,6 +3,12 @@ import {LitElement, html, customElement, css, query} from 'lit-element';
 @customElement('upload-file')
 export class UploadFile extends LitElement {
   static styles = css`
+    :host {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+    }
+  
     .upload-file {
       padding: 8px;
       border: solid 1px gray;
