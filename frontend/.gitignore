@@ -7,3 +7,6 @@ upload-file.js
 upload-file.js.map
 upload-file.d.ts
 upload-file.d.ts.map
+
+# VS Code
+.vscode
